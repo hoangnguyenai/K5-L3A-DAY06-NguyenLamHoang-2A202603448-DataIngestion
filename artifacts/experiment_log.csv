@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed,500,50,document_id/source/page/chapter/chapter_number/language/version,none,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,Baseline: overlapping fixed windows,3/15,7/15,2/5,3/5,Run 2026-11-13; literal evidence metrics; local CPU; A selected on dev before test
+B,paragraph,500,0,document_id/source/page/chapter/chapter_number/language/version,none,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,Paragraph boundaries may preserve context; compare A-B,2/15,6/15,3/5,3/5,Run 2026-11-13; literal evidence metrics; local CPU; A selected on dev before test
+C,paragraph,500,0,document_id/source/page/chapter/chapter_number/language/version,chapter when explicit,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,Chapter filter may reduce out-of-scope retrieval; compare B-C,2/15,6/15,3/5,3/5,Run 2026-11-13; literal evidence metrics; local CPU; A selected on dev before test

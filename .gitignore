@@ -8,3 +8,11 @@ __pycache__/
 .DS_Store
 .pytest_cache/
 *.sqlite
+tmp/
+
+# Regenerated intermediates and large model caches stay local.
+.cache/
+data/processed/
+results/preparation/chunks_*.jsonl
+results/error.json
+results/drafts/

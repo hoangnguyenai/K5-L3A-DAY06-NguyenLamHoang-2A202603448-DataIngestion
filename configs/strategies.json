@@ -1,0 +1,5 @@
+{
+  "A": {"chunking": "fixed", "chunk_size": 500, "overlap": 50, "use_filter": false},
+  "B": {"chunking": "paragraph", "chunk_size": 500, "overlap": 0, "use_filter": false},
+  "C": {"chunking": "paragraph", "chunk_size": 500, "overlap": 0, "use_filter": true}
+}

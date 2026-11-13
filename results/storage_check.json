@@ -1,0 +1,20 @@
+{
+  "checked_at_utc": "2026-11-13T10:55:23.103533+00:00",
+  "container_restarted": true,
+  "counts_before": {
+    "A": 185,
+    "B": 188,
+    "C": 188
+  },
+  "counts_after": {
+    "A": 185,
+    "B": 188,
+    "C": 188
+  },
+  "exact_vector_top1_score": 1.0,
+  "metadata_filter_checked": true,
+  "replacement_before": 3,
+  "replacement_after": 2,
+  "obsolete_chunk_removed": true,
+  "verification_vectors": "real B embeddings read from pgvector; no mock model"
+}

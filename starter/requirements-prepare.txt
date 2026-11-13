@@ -1,0 +1,3 @@
+# Minimal dependencies for PDF preparation; no database/model installation yet.
+pypdf==6.21.4
+fonttools==4.68.0

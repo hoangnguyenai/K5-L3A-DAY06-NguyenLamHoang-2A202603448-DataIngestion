@@ -1,0 +1,17 @@
+{
+  "unit_tests_passed": 5,
+  "frozen_input_hashes_match": false,
+  "selection_before_test": true,
+  "same_model_revision_all_strategies": true,
+  "trace_rows": {
+    "dev": 45,
+    "test": 15
+  },
+  "hits_per_trace": 3,
+  "metrics_recomputed_match": true,
+  "audit_rows_ready": 93,
+  "audit_rows_scored": 93,
+  "post_run_changes": [
+    "starter/src/audit.py: removed optional reviewer column after retrieval; retrieval traces and original recorded hashes preserved"
+  ]
+}

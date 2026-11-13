@@ -1,0 +1,28 @@
+{
+  "selected_strategy": "A",
+  "input_hashes": {
+    "data/manifest.json": "8b44146f8233a36fc70b6c8ec094d20102f58847b6efc671acdb6a25534f06a2",
+    "configs/strategies.json": "d3194131c387dc97561bf5cb5d69d1926a5a5d464b71b539ff8fcde6d80ae765",
+    "benchmark/questions.jsonl": "707d18110813c45da9adf453c9216e2cb0753c03d5b0a6810eac36b619b5d57b",
+    "benchmark/protocol.md": "ba0d1c27dd7de49f9f05eff6796978b8fb81e3f27de996bc3ebe24a7570d592c",
+    "artifacts/coherence_sample.json": "73fa0aaf6c3fc49ee421828fb6d5866e6e1a2ebe8274ae8b2b3a0353d74c2522",
+    "results/preparation/chunks_A.jsonl": "9e8324d0d333b377b3a2ec73b84b7eb98080141e2ee5aef863c8555cfb6aa7a6",
+    "results/preparation/chunks_B.jsonl": "a173a68f261ddf20cf8e345c8f9c2608f5b08e76e8524e174677820e8992d3d3",
+    "starter/src/__init__.py": "9d51e4a4713565f1b69bb8f3a0d8ac2c6c8730961e738a65f7a7a4ebd2a593a8",
+    "starter/src/audit.py": "135ce591ad9d99e4c5d40b19c062f1ec50d7b27a4e227fcb2aa628fa7ec116c9",
+    "starter/src/chunking.py": "d0dacd01d3dd9b3bb9e2148a7339e68030cc71089bd64ea417fd1d98731743c9",
+    "starter/src/embeddings.py": "f995bb25cb9e35645ca6c796214647408e005d95c87784f30941534fbb74164b",
+    "starter/src/evaluation.py": "930b467f471ab4b402163031b4b5f4b00415fb3a7e3a1197b8d4ed0c37a3d248",
+    "starter/src/ingestion.py": "d369d0cc975ef2b1f8e14094ae844319e345485938407531ddbfc167993cea2f",
+    "starter/src/models.py": "9f26a14cd6139c7b608df067894274308ae7b5c2c2ccd10566079c345fae1710",
+    "starter/src/prepare.py": "7dc090bb801fa21ff4893cbaa42ed4d6638fef89bddf6513fb1f012a1f1c629d",
+    "starter/src/run.py": "bc37b27c29e2f7dc51a8dba359f63cc2c862a9d72de754e5da6598b75f6620ec",
+    "starter/src/store.py": "6faed04bebdae5e79a1a2635d4107989c3c4edd6e4863920cdf1f4e5472ea20b",
+    "starter/src/validate_benchmark.py": "fb843929774a20d25f15094f556ef070d58c9e3f7160d5bf00b8bbceb50afa89"
+  },
+  "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "model_revision": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "dev_run_sha256": "775cf3a3883c0b1a629b013ea458dafb42f3f212c0c0b83ab7732009c32afbe6",
+  "criterion": "dev Hit@3, then Hit@1, then fewer chunks, then A/B/C order",
+  "frozen_at_utc": "2026-11-13T10:53:50.337219+00:00"
+}

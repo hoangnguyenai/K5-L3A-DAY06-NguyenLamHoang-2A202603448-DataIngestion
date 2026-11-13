@@ -1,0 +1,47 @@
+{
+  "status": "prepared_without_embeddings_or_database",
+  "counted_pages": 35,
+  "physical_pdf_pages": 244,
+  "strategies": {
+    "A": {
+      "chunking": "fixed",
+      "chunk_size": 500,
+      "overlap": 50,
+      "use_filter": false,
+      "chunk_file": "results/preparation/chunks_A.jsonl",
+      "chunk_count": 185,
+      "min_chars": 55,
+      "max_chars": 500,
+      "mean_chars": 453.427027027027,
+      "total_chars": 83884
+    },
+    "B": {
+      "chunking": "paragraph",
+      "chunk_size": 500,
+      "overlap": 0,
+      "use_filter": false,
+      "chunk_file": "results/preparation/chunks_B.jsonl",
+      "chunk_count": 188,
+      "min_chars": 34,
+      "max_chars": 500,
+      "mean_chars": 406.29787234042556,
+      "total_chars": 76384
+    },
+    "C": {
+      "chunking": "paragraph",
+      "chunk_size": 500,
+      "overlap": 0,
+      "use_filter": true,
+      "chunk_file": "results/preparation/chunks_B.jsonl",
+      "chunk_count": 188,
+      "min_chars": 34,
+      "max_chars": 500,
+      "mean_chars": 406.29787234042556,
+      "total_chars": 76384
+    }
+  },
+  "preparation_seconds": 33.98707279999962,
+  "completed_at_utc": "2026-11-13T10:17:02.563494+00:00",
+  "paid_api_cost": 0,
+  "retrieval_metrics": null
+}

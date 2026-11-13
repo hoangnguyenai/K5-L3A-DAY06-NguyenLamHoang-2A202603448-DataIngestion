@@ -1,0 +1,330 @@
+{
+  "source_id": "think_python_2e",
+  "title": "Think Python: How to Think Like a Computer Scientist",
+  "author": "Allen B. Downey",
+  "version": "2nd Edition, Version 2.4.1",
+  "source_path_or_url": "https://greenteapress.com/thinkpython2/thinkpython2.pdf",
+  "landing_page": "https://greenteapress.com/wp/think-python-2e/",
+  "local_path": "data/raw/think-python-2e/thinkpython2.pdf",
+  "license_or_permission": "CC BY-NC 3.0 Unported; noncommercial educational lab, attribution required",
+  "license_url": "https://creativecommons.org/licenses/by-nc/3.0/",
+  "accessed_at": "2026-11-13",
+  "language": "en",
+  "page_numbering": "1-based physical PDF pages; printed page = physical page - 22 in the selected chapters",
+  "selection": [
+    {
+      "chapter": "The way of the program",
+      "chapter_number": 1,
+      "physical_pages": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "chapter": "Variables, expressions and statements",
+      "chapter_number": 2,
+      "physical_pages": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "chapter": "Functions",
+      "chapter_number": 3,
+      "physical_pages": [
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49
+      ]
+    },
+    {
+      "chapter": "Conditionals and recursion",
+      "chapter_number": 5,
+      "physical_pages": [
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70
+      ]
+    }
+  ],
+  "counting_rule": "Count only the 35 explicitly listed, unique physical PDF pages with substantive teaching content, glossary or exercises. Exclude all front matter, contents, blanks, reference-only pages and all other pages. No text-length conversion and no duplication.",
+  "transformations": "Extract selected pages with pypdf layout mode; Unicode NFKC, remove soft hyphens/NUL and trailing whitespace, collapse 3+ newlines. Keep source PDF unchanged. Figures are not OCRed; use text-supported questions only.",
+  "physical_page_count": 244,
+  "counted_page_count": 35,
+  "pdf_sha256": "6033000bac3f9268ad75ee041bf8e5d9a3bc8a33bb156399cbd014918cb59f94",
+  "pages": [
+    {
+      "page": 23,
+      "printed_page": 1,
+      "chapter": "The way of the program",
+      "char_count": 1972,
+      "normalized_sha256": "140a60d0a8c8f63fc0f386af3ae979112d397d22b46fe6d09173eebc56b2a711"
+    },
+    {
+      "page": 24,
+      "printed_page": 2,
+      "chapter": "The way of the program",
+      "char_count": 2833,
+      "normalized_sha256": "1c3f48bfefb8ba9f3120c4f79dae4b3ade840dc0e48ede111c7c5848432cc0c8"
+    },
+    {
+      "page": 25,
+      "printed_page": 3,
+      "chapter": "The way of the program",
+      "char_count": 1908,
+      "normalized_sha256": "0af9505ade17637be06f0e69dafb3b773a714c8d74a47dfc1b8e03e305588b7c"
+    },
+    {
+      "page": 26,
+      "printed_page": 4,
+      "chapter": "The way of the program",
+      "char_count": 2102,
+      "normalized_sha256": "c2b198190b7973dc1463f07a7b6f9415fecb9d1bce2555361d2d837a4154c2e6"
+    },
+    {
+      "page": 27,
+      "printed_page": 5,
+      "chapter": "The way of the program",
+      "char_count": 3092,
+      "normalized_sha256": "ca3b307a289657cf00f3fdf60a734ded2d806562327537e82c31e4aab5f81bb7"
+    },
+    {
+      "page": 28,
+      "printed_page": 6,
+      "chapter": "The way of the program",
+      "char_count": 2768,
+      "normalized_sha256": "6e168fe7d57839e200e5d2b3e0de5cad152b29fa540e0ef89640ba9c3caed3ba"
+    },
+    {
+      "page": 29,
+      "printed_page": 7,
+      "chapter": "The way of the program",
+      "char_count": 2419,
+      "normalized_sha256": "95cf67ec5d7019e3cde83e3534fcf4103d2ae44dddbf092d212a10694412fb9a"
+    },
+    {
+      "page": 31,
+      "printed_page": 9,
+      "chapter": "Variables, expressions and statements",
+      "char_count": 1102,
+      "normalized_sha256": "56c53fab5b2e0679d31c29828d32687b0066bac61a739c2a7477d208506472b5"
+    },
+    {
+      "page": 32,
+      "printed_page": 10,
+      "chapter": "Variables, expressions and statements",
+      "char_count": 2327,
+      "normalized_sha256": "d2df795dfe59eaae2d7eea7656d4c4deb9fca6c896eb5d23ea00aa758e16aef0"
+    },
+    {
+      "page": 33,
+      "printed_page": 11,
+      "chapter": "Variables, expressions and statements",
+      "char_count": 2560,
+      "normalized_sha256": "d4fd9be5723617cb409746ab10c6b27458f2572fb8d112705301277a031ca720"
+    },
+    {
+      "page": 34,
+      "printed_page": 12,
+      "chapter": "Variables, expressions and statements",
+      "char_count": 2449,
+      "normalized_sha256": "0d603c5c1cceb80b297c23d15f5bf2fbe5ae76aa32f4f23793f02ed1fee2d985"
+    },
+    {
+      "page": 35,
+      "printed_page": 13,
+      "chapter": "Variables, expressions and statements",
+      "char_count": 2983,
+      "normalized_sha256": "115893ec896ead60784670b7456850eab20f240e06b27bf8fae20bac7e756e0f"
+    },
+    {
+      "page": 36,
+      "printed_page": 14,
+      "chapter": "Variables, expressions and statements",
+      "char_count": 2079,
+      "normalized_sha256": "4cde7fc2b56dc8fc3f6d9ee8ccad4d57eaec99b3fb1abbec0ad867f24659b9b2"
+    },
+    {
+      "page": 37,
+      "printed_page": 15,
+      "chapter": "Variables, expressions and statements",
+      "char_count": 1101,
+      "normalized_sha256": "b3880960bcc4f6f72beb6c2726865a031ccf8db0806d697a3ebbfb39cbaf4285"
+    },
+    {
+      "page": 39,
+      "printed_page": 17,
+      "chapter": "Functions",
+      "char_count": 1150,
+      "normalized_sha256": "ff8df9b53f594b697d9d66831afec3f22b3ccdae9351a45bbe0705ca71e056e0"
+    },
+    {
+      "page": 40,
+      "printed_page": 18,
+      "chapter": "Functions",
+      "char_count": 1929,
+      "normalized_sha256": "f2cedfe237df5dd84e403997a61df478b197a5d1371fe240d013e7ae11d803ba"
+    },
+    {
+      "page": 41,
+      "printed_page": 19,
+      "chapter": "Functions",
+      "char_count": 2849,
+      "normalized_sha256": "1bb0e273c30c46f45e38d3ab8671902b3c17b6395751d2c9eca2950c1a86b23d"
+    },
+    {
+      "page": 42,
+      "printed_page": 20,
+      "chapter": "Functions",
+      "char_count": 1855,
+      "normalized_sha256": "e5038f1b2ea9e0abdcc2ceea6dafb005879bd5f007c8f6aba6f85743dad86c81"
+    },
+    {
+      "page": 43,
+      "printed_page": 21,
+      "chapter": "Functions",
+      "char_count": 2663,
+      "normalized_sha256": "6ac5844af426aa3ffa0579ee402a20eb2fd5de904e48ae682f0d190e4d97581a"
+    },
+    {
+      "page": 44,
+      "printed_page": 22,
+      "chapter": "Functions",
+      "char_count": 1702,
+      "normalized_sha256": "323617bec6f267c060817eea859efa1d1f4a13f6a7af4a2d5b431338a78f2d73"
+    },
+    {
+      "page": 45,
+      "printed_page": 23,
+      "chapter": "Functions",
+      "char_count": 1885,
+      "normalized_sha256": "04c3234f37a1f2fb45010cc04d15b4ab2cf5f1da49895d7ec55ae9bc7db6d1d3"
+    },
+    {
+      "page": 46,
+      "printed_page": 24,
+      "chapter": "Functions",
+      "char_count": 2031,
+      "normalized_sha256": "bbce68dacd4d0bf7e561754a23f92d05e87afa0c97fc3532efd735162a9377b2"
+    },
+    {
+      "page": 47,
+      "printed_page": 25,
+      "chapter": "Functions",
+      "char_count": 2741,
+      "normalized_sha256": "919aefdc6c3c164b10f49052b4f8dd1e12f8b4ca6453b9ca0d8cda4ea6f9ac6e"
+    },
+    {
+      "page": 48,
+      "printed_page": 26,
+      "chapter": "Functions",
+      "char_count": 2484,
+      "normalized_sha256": "3248c3ff3436adf87d5119295b69efb00cd7675aaef3938addaa66d22c693730"
+    },
+    {
+      "page": 49,
+      "printed_page": 27,
+      "chapter": "Functions",
+      "char_count": 2237,
+      "normalized_sha256": "9edfcfe57071b52a22dedc8fd87e00a85fb824a4bf10c773a6dc05523516d0c0"
+    },
+    {
+      "page": 61,
+      "printed_page": 39,
+      "chapter": "Conditionals and recursion",
+      "char_count": 1195,
+      "normalized_sha256": "a139c2e98c64323387a25d8f7c209c8d0d8d377e87120071798a0b66b1d4c0ac"
+    },
+    {
+      "page": 62,
+      "printed_page": 40,
+      "chapter": "Conditionals and recursion",
+      "char_count": 2352,
+      "normalized_sha256": "6a364eb93c665db51b6bd92fd5101cbcefe8099724b67d48813eb963b2ca5688"
+    },
+    {
+      "page": 63,
+      "printed_page": 41,
+      "chapter": "Conditionals and recursion",
+      "char_count": 2102,
+      "normalized_sha256": "0d7ebb1af6cf554cfe5579d128d9364abb2a16f51aa3cc1cc4e9efe7c6bb993d"
+    },
+    {
+      "page": 64,
+      "printed_page": 42,
+      "chapter": "Conditionals and recursion",
+      "char_count": 2083,
+      "normalized_sha256": "fba2431d112224bea0d2990445b306dec85fddeeaf144a621716aad47d3c9e99"
+    },
+    {
+      "page": 65,
+      "printed_page": 43,
+      "chapter": "Conditionals and recursion",
+      "char_count": 1961,
+      "normalized_sha256": "08e9dc24254ddb61c51c4b00479da9b29d3238abced8057e122f9d2f7814d108"
+    },
+    {
+      "page": 66,
+      "printed_page": 44,
+      "chapter": "Conditionals and recursion",
+      "char_count": 2074,
+      "normalized_sha256": "7d1498dfc2a3441104841cd933a43ca5516f45dbf90fbca3352b8e6eff65ccda"
+    },
+    {
+      "page": 67,
+      "printed_page": 45,
+      "chapter": "Conditionals and recursion",
+      "char_count": 2258,
+      "normalized_sha256": "7e574424e5c82f4e8ccbc0d5bd909a793c20a3bcc9dc0b3ddad0fcdb203c44f1"
+    },
+    {
+      "page": 68,
+      "printed_page": 46,
+      "chapter": "Conditionals and recursion",
+      "char_count": 2258,
+      "normalized_sha256": "8f5ba4cd13d725db5fa43b6cf4fcfe7b7aec806872f0f1de6e2e661f51c972fb"
+    },
+    {
+      "page": 69,
+      "printed_page": 47,
+      "chapter": "Conditionals and recursion",
+      "char_count": 2257,
+      "normalized_sha256": "1574229c2a7efa793c1e7d52b8d9ee803b1b4870069961d3637f3b4d80f4ece7"
+    },
+    {
+      "page": 70,
+      "printed_page": 48,
+      "chapter": "Conditionals and recursion",
+      "char_count": 2623,
+      "normalized_sha256": "d9dfe36982189bd6c1d6624af149e586933038c13a3bbd673c3cd8c5b51f9fcb"
+    }
+  ],
+  "total_normalized_characters": 76384,
+  "extraction_library": "pypdf",
+  "extraction_version": "6.21.4"
+}

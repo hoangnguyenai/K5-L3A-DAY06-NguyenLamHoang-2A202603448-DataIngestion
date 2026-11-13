@@ -1,0 +1,22 @@
+{
+  "source_id": "think_python_2e",
+  "title": "Think Python: How to Think Like a Computer Scientist",
+  "author": "Allen B. Downey",
+  "version": "2nd Edition, Version 2.4.1",
+  "source_path_or_url": "https://greenteapress.com/thinkpython2/thinkpython2.pdf",
+  "landing_page": "https://greenteapress.com/wp/think-python-2e/",
+  "local_path": "data/raw/think-python-2e/thinkpython2.pdf",
+  "license_or_permission": "CC BY-NC 3.0 Unported; noncommercial educational lab, attribution required",
+  "license_url": "https://creativecommons.org/licenses/by-nc/3.0/",
+  "accessed_at": "2026-11-13",
+  "language": "en",
+  "page_numbering": "1-based physical PDF pages; printed page = physical page - 22 in the selected chapters",
+  "selection": [
+    {"chapter": "The way of the program", "chapter_number": 1, "physical_pages": [23, 24, 25, 26, 27, 28, 29]},
+    {"chapter": "Variables, expressions and statements", "chapter_number": 2, "physical_pages": [31, 32, 33, 34, 35, 36, 37]},
+    {"chapter": "Functions", "chapter_number": 3, "physical_pages": [39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49]},
+    {"chapter": "Conditionals and recursion", "chapter_number": 5, "physical_pages": [61, 62, 63, 64, 65, 66, 67, 68, 69, 70]}
+  ],
+  "counting_rule": "Count only the 35 explicitly listed, unique physical PDF pages with substantive teaching content, glossary or exercises. Exclude all front matter, contents, blanks, reference-only pages and all other pages. No text-length conversion and no duplication.",
+  "transformations": "Extract selected pages with pypdf layout mode; Unicode NFKC, remove soft hyphens/NUL and trailing whitespace, collapse 3+ newlines. Keep source PDF unchanged. Figures are not OCRed; use text-supported questions only."
+}
